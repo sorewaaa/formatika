@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФОРМАТИКА</title>
+    <link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="header_block container">
+            <a href="#">
+                <img src="assets/images/logo/logo.svg" alt="">
+            </a>
+            <nav>
+                <a href="#services">Услуги</a>
+                <a href="#portfolio">Портфолио</a>
+                <a href="#faq">Вопросы</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+            <a href="#modal" class="header_btn">Оставить заявку →</a>
+        </div>
+
+        <div class="modal-overlay" id="modal">
+            <div class="modal-window">
+                <div class="modal-close-btn">
+                    <a href="#main">✕</a>
+                </div>
+                <h2>Оставить заявку</h2>
+                <p class="modal-text">Заполните форму, и мы свяжемся с вами<br>для уточнения деталей</p>
+                <form>
+                    <div class="form-inputs">
+                        <div class="form-field">
+                            <img src="assets/images/modal/user-round.svg" alt="">
+                            <input type="text" name="name" placeholder="Имя" required>
+                        </div>
+                        <div class="form-field">
+                            <img src="assets/images/modal/phone.svg" alt="">
+                            <input type="tel" name="phone" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-field">
+                            <img src="assets/images/modal/square-text.svg" alt="">
+                            <input type="text" name="description" placeholder="Описание заказа">
+                        </div>
+                    </div>
+                    <button type="submit">Отправить заявку →</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <main>
+        <!-- hero -->
+        <section class="hero">
+            <div class="hero_block container">
+                <p class="hero_p1">Студия 3D печати</p>
+                <h1>От цифровой идеи<br>до <span>реального</span> объекта</h1>
+                <p class="hero_p2">3D-печать, моделирование и прототипирование <br> для ваших задач</p>
+                <a href="#" class="hero_btn">Сделать заказ →</a>
+            </div>
+        </section>
+        <!-- hero end -->
+
+        <!-- services -->
+
+        <section class="services" id="services">
+            <div class="services_block container">
+                <div class="services_title">
+                    <span>Наши услуги</span>
+                    <h2>Полный цикл<br>3D производства</h2>
+                    <p>От идеи до готового изделия <br>— в одном месте</p>
+                    <a href="#" class="services_btn">Все услуги →</a>
+                </div>
+                <div class="services_right">
+                    <div class="services_cards">
+                        <div class="services_card">
+                            <div class="services_card-header">
+                                <img src="assets/images/icons/3D_printer.svg" alt="">
+                                <p>3D-печать изделий</p>
+                            </div>
+                            <div class="services_card-text">
+                                <p>Изготавливаем прочные и точные детали, фигурки, органайзеры и многое другое из
+                                    современных пластиков.</p>
+                            </div>
+                        </div>
+                        <div class="services_card">
+                            <div class="services_card-header">
+                                <img src="assets/images/icons/cube.svg" alt="">
+                                <p>3D-моделирование</p>
+                            </div>
+                            <div class="services_card-text">
+                                <p>Изготавливаем прочные и точные детали, фигурки, органайзеры и многое другое из
+                                    современных пластиков.</p>
+                            </div>
+                        </div>
+                        <div class="services_card">
+                            <div class="services_card-header">
+                                <img src="assets/images/icons/gear.svg" alt="">
+                                <p>Прототипирование</p>
+                            </div>
+                            <div class="services_card-text">
+                                <p>Создаем прототипы для тестирования эргономики, сборки и рабочих характеристик
+                                    будущего продукта. </p>
+                            </div>
+                        </div>
+                        <div class="services_card">
+                            <div class="services_card-header">
+                                <img src="assets/images/icons/circle-check.svg" alt="">
+                                <p>Модель на заказ</p>
+                            </div>
+                            <div class="services_card-text">
+                                <p>Изготавливаем прочные и точные детали, фигурки, органайзеры и многое другое из
+                                    современных пластиков.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="services_nav">
+                        <div class="services_arrows">
+                            <button type="button" class="services_arrow services_arrow-prev">←</button>
+                            <button type="button" class="services_arrow services_arrow-next">→</button>
+                        </div>
+                        <div class="services_dots">
+                            <span class="services_dot active"></span>
+                            <span class="services_dot"></span>
+                            <span class="services_dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- services  end-->
+
+        <!-- advantages -->
+
+        <section class="advantages">
+            <div class="advantages_block container">
+                <div class="advantages_statue">
+                    <img src="assets/images/advantages/image.svg" alt="Скульптура Давида">
+                </div>
+
+                <div class="advantages_content">
+                    <span>ПРЕИМУЩЕСТВА</span>
+                    <h2>Почему выбирают <br> <span>Форматику?</span></h2>
+                    <p>Реальные проекты <br> и воплощенные идеи</p>
+                    <a href="#" class="advantages_btn">Узнать больше →</a>
+                </div>
+
+                <div class="advantages_stats">
+                    <div class="adv_stat"><strong>5+</strong><span>лет <br> опыта</span></div>
+                    <div class="adv_stat"><strong>1000+</strong><span>реализованных<br> проектов</span></div>
+                    <div class="adv_stat"><strong>98%</strong><span>довольных<br> клиентов</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- advantages end -->
+
+
+        <!-- portfolio -->
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio_block container">
+                <div class="portfolio_title">
+                    <span>Портфолио</span>
+                    <h2>Наши работы</h2>
+                    <p>Реальные проекты<br>и воплощенные идеи.</p>
+                    <a href="#" class="portfolio_btn">Смотреть все работы →</a>
+                </div>
+                <div class="portfolio_right">
+                    <div class="portfolio_slider">
+                        <div class="portfolio_item portfolio_far"><img src="assets/images/portfolio/1.png" alt=""></div>
+                        <div class="portfolio_item portfolio_side"><img src="assets/images/portfolio/2.png" alt="">
+                        </div>
+                        <div class="portfolio_item portfolio_main"><img src="assets/images/portfolio/3.png" alt="">
+                        </div>
+                        <div class="portfolio_item portfolio_side"><img src="assets/images/portfolio/4.png" alt="">
+                        </div>
+                        <div class="portfolio_item portfolio_far"><img src="assets/images/portfolio/5.png" alt=""></div>
+                    </div>
+                    <div class="portfolio_arrows">
+                        <button class="portfolio_arrow">←</button>
+                        <button class="portfolio_arrow">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- portfolio end -->
+
+        <!-- stages -->
+
+        <section class="stages">
+            <div class="stages_block container">
+                <div class="stages_title">
+                    <span>Как мы работаем</span>
+                    <h2>Простой путь <br>от идеи к результату</h2>
+                    <p>Всего 4 шага - и ваш проект готов</p>
+                </div>
+
+                <div class="stages_right">
+                    <div class="stages_col">
+                        <div class="stages_card">
+                            <div class="stages_num">1</div>
+                            <img src="assets/images/stages/1.png" alt="">
+                            <h3>Оставьте заявку</h3>
+                            <p>и опишите идею</p>
+                        </div>
+                        <div class="stages_card">
+                            <div class="stages_num">3</div>
+                            <img src="assets/images/stages/3.png" alt="">
+                            <h3>Печатаем модель</h3>
+                            <p>с точностью</p>
+                        </div>
+                    </div>
+                    <div class="stages_lines">
+                        <div class="stages_line"></div>
+                        <div class="stages_line"></div>
+                        <div class="stages_line"></div>
+                        <div class="stages_line"></div>
+                    </div>
+                    <div class="stages_col stages_down">
+                        <div class="stages_card">
+                            <div class="stages_num">2</div>
+                            <img src="assets/images/stages/2.png" alt="">
+                            <h3>Создаем модель</h3>
+                            <p>и согласовываем</p>
+                        </div>
+                        <div class="stages_card">
+                            <div class="stages_num">4</div>
+                            <img src="assets/images/stages/4.png" alt="">
+                            <h3>Вы получаете</h3>
+                            <p>готовое изделие</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- stages end -->
+
+        <section class="materials">
+            <div class="materials_block container">
+                <div class="materials_title">
+                    <span>Наши материалы</span>
+                    <h2>Работаем с лучшими<br>материалами</h2>
+                    <p>Подбираем оптимальное решение<br>под ваши задачи</p>
+                    <a href="#" class="materials_btn">Подробнее →</a>
+                </div>
+                <div class="materials_right">
+                    <div class="materials_card">
+                        <img src="assets/images/materials/1.png" alt="PLA">
+                        <h3>PLA</h3>
+                        <p>Легкий<br>и экологичный</p>
+                    </div>
+                    <div class="materials_card">
+                        <img src="assets/images/materials/2.png" alt="PETG">
+                        <h3>PETG</h3>
+                        <p>Прочный<br>и влагостойкий</p>
+                    </div>
+                    <div class="materials_card">
+                        <img src="assets/images/materials/3.png" alt="ABS">
+                        <h3>ABS</h3>
+                        <p>Термостойкий<br>и ударопрочный</p>
+                    </div>
+                    <div class="materials_card">
+                        <img src="assets/images/materials/4.png" alt="TPU">
+                        <h3>TPU</h3>
+                        <p>Гибкий<br>и мягкий</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- materials end -->
+
+
+        <!-- faq -->
+
+        <section class="faq" id="faq">
+            <div class="faq_block container">
+                <div class="faq_title">
+                    <span>Часто задаваемые вопросы</span>
+                    <h2>Ответы на ваши<br>вопросы</h2>
+                    <p>Найдите ответы на популярные вопросы<br>о нашей студии и процессе работы</p>
+                    <a href="#" class="faq_btn">Все вопросы →</a>
+                </div>
+                <div class="faq_right">
+                    <details class="faq_item" open>
+                        <summary>
+                            <h3>Как рассчитывается стоимость 3D-печати?</h3>
+                        </summary>
+                        <p>Стоимость рассчитывается индивидуально по вашей 3D-модели и зависит от расхода материала,
+                            выбранного типа пластика, времени работы принтера и необходимости постобработки.</p>
+                    </details>
+                    <details class="faq_item">
+                        <summary>
+                            <h3>Что делать, если у меня нет 3D-модели?</h3>
+                        </summary>
+                        <p>Не страшно, наши специалисты могут создать модель с нуля. Для этого достаточно прислать нам
+                            эскиз от руки, чертеж, фотографию изделия с указанием размеров или просто подробно описать
+                            вашу идею. Мы разработаем 3D-модель, согласуем её с вами и только после этого запустим в
+                            производство.</p>
+                    </details>
+                    <details class="faq_item">
+                        <summary>
+                            <h3>Как происходит оплата?</h3>
+                        </summary>
+                        <p>Оплата производится после окончательного согласования макета, стоимости и сроков. Для
+                            физических лиц доступна оплата банковской картой или по СБП, для юридических лиц —
+                            безналичный расчет по счету с предоставлением закрывающих документов. Для запуска заказа в
+                            работу обычно требуется предоплата (например, 50% или 100% — укажите ваши условия).</p>
+                    </details>
+                    <details class="faq_item">
+                        <summary>
+                            <h3>Сколько времени занимает выполнение заказа?</h3>
+                        </summary>
+                        <p>Сроки зависят от сложности задачи, объема партии и текущей загрузки производства. В среднем
+                            3D-печать одного изделия занимает от 1 до 3 рабочих дней. Если требуется разработка
+                            3D-модели с нуля или постобработка (шлифовка, покраска), срок может увеличиться. Точное
+                            время изготовления мы назовем сразу после оценки вашего запроса.</p>
+                    </details>
+                    <details class="faq_item">
+                        <summary>
+                            <h3>В каком формате нужно присылать 3D-модель?</h3>
+                        </summary>
+                        <p>Для расчета и печати лучше всего подходят файлы в форматах STL, OBJ или STEP. Если у вас
+                            модель в другом формате или есть только чертеж — отправьте нам то, что есть, и мы подскажем,
+                            как подготовить файл к работе.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- faq end -->
+    </main>
+
+    <footer class="footer" id="contacts">
+        <div class="footer_block container">
+            <div class="footer_top">
+                <div class="footer_logo">
+                    <img src="assets/images/footer/logo.svg" alt="Форматика">
+                    <p>©2026 Форматика. Все права защищены.</p>
+                </div>
+                <div class="footer_contacts">
+                    <div class="footer_item">
+                        <img src="assets/images/footer/footer_icons/phone.svg" alt="">
+                        <a href="tel:+79047044339">+7 (904) 704-43-39</a>
+                    </div>
+                    <div class="footer_item">
+                        <img src="assets/images/footer/footer_icons/mail.svg" alt="">
+                        <a href="mailto:info@formatika.ru">info@formatika.ru</a>
+                    </div>
+                    <div class="footer_item">
+                        <img src="assets/images/footer/footer_icons/map-pin.svg" alt="">
+                        <span>г. Казань, ул. Арбузова 5</span>
+                    </div>
+                </div>
+                <div class="footer_links">
+                    <a href="#">Поддержка</a>
+                    <a href="#">Каталог</a>
+                    <a href="#">Отзывы</a>
+                </div>
+                <div class="footer_socials">
+                    <a href="https://vk.com" target="_blank"><img src="assets/images/footer/footer_icons/vk.svg"
+                            alt="VK"></a>
+                    <a href="https://max.ru" target="_blank"><img src="assets/images/footer/footer_icons/max.svg"
+                            alt="Max"></a>
+                    <a href="https://dzen.ru" target="_blank"><img src="assets/images/footer/footer_icons/dzen.svg"
+                            alt="Telegram"></a>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <a href="assets/documents/фирменный_стиль.pdf" target="_blank">Политика конфиденциальности</a>
+                <p>Разработал: Трыков Артур Витальевич 327ВЕБ</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+</body>
+
+</html>
